@@ -5,10 +5,10 @@ function toggleMode() {
     const img = document.querySelector("#profile img")
 
     if (html.classList.contains('light')) {
-        img.setAttribute("src", "./assets/avatar-light.png")
+        img.setAttribute("src", "assets/avatar-light.png")
         img.setAttribute("alt", "Foto de Kauê Sehnem normal(face) com óculos de sol, sem camisa e fundo azul claro")
     } else {
-        img.setAttribute("src", "./assets/avatar.png")
+        img.setAttribute("src", "assets/avatar.png")
         img.setAttribute("alt", "Foto de Kauê Sehnem normal(face), sem camisa e fundo azul claro")
     }
 }
