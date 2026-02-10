@@ -9,6 +9,6 @@ function toggleMode() {
         img.setAttribute("alt", "Foto de Kauê Sehnem normal(face) com óculos de sol, sem camisa e fundo azul claro")
     } else {
         img.setAttribute("src", "./assets/avatar.png")
-        img.setAttribute("alt", "Foto de Kauê Sehnem normal(face), sem camisa e fundo azul claroo")
+        img.setAttribute("alt", "Foto de Kauê Sehnem normal(face), sem camisa e fundo azul claro")
     }
 }
